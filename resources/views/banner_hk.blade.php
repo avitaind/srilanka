@@ -4,7 +4,7 @@
   
 
 
-    <div class="carousel-item active">
+    {{-- <div class="carousel-item active">
             <div class="responsive-block">
                 <a target="_blank" href="https://in.nexstmall.com/">
                     <div class="banner-block responsive-item">
@@ -33,11 +33,11 @@
                     </div>
                </a>
           </div>
-     </div>
+     </div> --}}
 
  
 
-    <div class="carousel-item">
+    <div class="carousel-item active">
                 <div class="responsive-block">
                <a href="{{ route('product.overview', ['liber-v']) }}">
                     <div class="banner-block responsive-item">
@@ -48,19 +48,19 @@
                 </div>
             </div>
            
-            <div class="carousel-item">
+             <div class="carousel-item">
                 <div class="responsive-block">
-                <a href="{{ route('product.overview', ['essential']) }}">
+                <a href="{{ route('product.overview', ['magus-lite-2in1-laptop']) }}">
                     <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-essential"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-essential"></div>
+                        <div class="banner-bg hidden-sm-down banner-web-magus"></div>                  
+                        <div class="banner-bg hidden-md-up banner-mob-magus"></div>
                     </div>
                     </a>
                 </div>
-        </div>
+            </div>
 
 
-        <div class="carousel-item">
+        {{-- <div class="carousel-item">
                 <div class="responsive-block">
                  <a href="{{ route('product.overview', ['admiror']) }}">
                     <div class="banner-block responsive-item">
@@ -80,15 +80,15 @@
                        </div>
                        </a>
                   </div>
-            </div>
+            </div> --}}
        
           <ol class="carousel-indicators">
            <li data-target="#home_banner" data-slide-to="0" class="active"></li>
            <li data-target="#home_banner" data-slide-to="1"></li>
-           <li data-target="#home_banner" data-slide-to="2"></li>
+           {{-- <li data-target="#home_banner" data-slide-to="2"></li>
            <li data-target="#home_banner" data-slide-to="3"></li>
            <li data-target="#home_banner" data-slide-to="4"></li>
-           <li data-target="#home_banner" data-slide-to="5"></li>
+           <li data-target="#home_banner" data-slide-to="5"></li> --}}
         </ol>
     </div>
   </div>       

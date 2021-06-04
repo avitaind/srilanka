@@ -87,7 +87,7 @@
                                 </div>
                             </form>
                               <br/>
-                        <img src="/images/contact.png" style="width:320px;">
+                        {{-- <img src="/images/contact.png" style="width:320px;"> --}}
                             </div>
                     </div>
                 </div>
@@ -152,14 +152,14 @@
                      09:30AM-6:30PM (Mon to Sat, Excluding 3rd Saturday), close on Sunday and Public Holidays
                  </div>
 
-                 <div>
+                 {{-- <div>
                      <i class="fa fa-phone icon"></i>
                         1800-103-9635
-                 </div>
+                 </div> --}}
 
                  <div>
                      <i class="fa fa-envelope icon"></i>
-                      india_support@avita.com
+                      sl.support@nexstgo.com
                  </div>
                  
                     </div>
@@ -167,7 +167,7 @@
 
                 </div>
                 
-                   <div class="form-group">
+                   {{-- <div class="form-group">
                         
                         <div class="input-group">
                     
@@ -175,7 +175,7 @@
                         <div class="input-group-addon overlay-addon"><i class="fa fa-search" aria-hidden="true"></i></div>
                         
                         </div>
-                    </div>
+                    </div> --}}
                  
                 
         

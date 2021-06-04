@@ -27,21 +27,21 @@
                                 <div class="dropdown">
                                     <ul class="list-unstyled">
 
-                                      <li class="nav-item">
+                                      {{-- <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['admiror']) }}">@lang('site.admiror')</a>
-                                        </li>
+                                        </li> --}}
 
-                                        <li class="nav-item">
+                                        {{-- <li class="nav-item">
                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['pura']) }}">@lang('site.pura')</a>
-                                        </li>
+                                        </li> --}}
 
                                       <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v']) }}">@lang('site.liber-v')</a>
                                        </li>
                                  
-                                       <li class="nav-item">
+                                       {{-- <li class="nav-item">
                                           <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v-gold-blue']) }}">@lang('site.liber-v-gold')</a>
-                                       </li>
+                                       </li> --}}
                                       
                                     
                                        <li class="nav-item">
@@ -51,15 +51,15 @@
                                           <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'essential') }}">@lang('site.essential_name')</a>
                                             </li>
-                                            <li class="nav-item">
+                                            {{-- <li class="nav-item">
                                                     <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-new-generation']) }}">@lang('site.liber-new-generation')</a>
-                                                </li>
+                                                </li> --}}
                                       </ul>
                                 </div>
                             </li>
 
 
-                            <li class="nav-item has-dropdown">
+                            {{-- <li class="nav-item has-dropdown">
                                 <input id="header_product_device" type="checkbox" hidden="">
                                 <a class="nav-link px-md-4 py-2"><label for="header_product_device" class="d-block mb-0">{{ __('messages.smart device') }}</label></a>
                                 <div class="dropdown">
@@ -72,7 +72,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> --}}
 
 
                             <li class="nav-item has-dropdown">
@@ -99,13 +99,14 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/where-to-buy">{{ __('messages.where_to_buy') }}</a>
+                    {{-- <a class="nav-link" href="/where-to-buy">{{ __('messages.where_to_buy') }}</a> --}}
+                    <a class="nav-link" >{{ __('messages.where_to_buy') }}</a>
                 </li>
                    <li class="nav-item">
                         <a class="nav-link" href="{{ route('support') }}">{{ __('messages.support') }}</a> 
                 </li>
 
-                <li class="nav-item has-dropdown">
+                {{-- <li class="nav-item has-dropdown">
                     <input id="header_buy_online" type="checkbox" hidden="">
                     <a class="nav-link px-md-4 py-2"><label for="header_buy_online" class="d-block mb-0">{{ __('messages.buy_online') }}</label></a>
                     <div class="dropdown">
@@ -130,7 +131,7 @@
                             </li>
                        </ul>
                     </div>
-                </li>
+                </li> --}}
                 <li class="nav-item">
                     <a class="nav-link" href="/blog">{{ __('messages.blog') }}</a>
                 </li>

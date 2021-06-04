@@ -8,8 +8,8 @@ use DB;
 
 class AppMailer {
     protected $mailer; 
-    protected $fromAddress = 'contact@avita-india.com';
-    protected $fromName = 'AVITA INDIA | Official Website AVITA INDIA';
+    protected $fromAddress = 'sl.support@nexstgo.com ';
+    protected $fromName = 'AVITA Srilanka | Official Website AVITA Srilanka';
     protected $to;
     protected $subject;
     protected $view;
@@ -24,7 +24,7 @@ class AppMailer {
     {
               
         $this->to = $subscription->email;
-        $this->subject = "New Subscriber | AVITA INDIA";
+        $this->subject = "New Subscriber | AVITA Srilanka";
         $this->view = 'emails.subscription';
         $this->data = compact('user', 'subscription');
 

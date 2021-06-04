@@ -29,8 +29,8 @@ class SubscriptionController extends Controller
       {
             $email = $request->input('subscription_email');
           
-           $message->from('contact@avita-india.com');
-           $message->to($email, $name)->subject('AVITA INDIA | SUBSCRIPTION');
+           $message->from('sl.support@nexstgo.com ');
+           $message->to($email, $name)->subject('AVITA Srilanka | SUBSCRIPTION');
        });
      
         return redirect()->back()->with('message', 'Thank you for your subscription!');
