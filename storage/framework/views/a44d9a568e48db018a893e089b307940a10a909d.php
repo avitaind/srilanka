@@ -19,23 +19,14 @@
                 </div>
             </div>
            
-             <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="<?php echo e(route('product.overview', ['magus-lite-2in1-laptop'])); ?>">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-magus"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-magus"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
+             
 
 
         
        
           <ol class="carousel-indicators">
            <li data-target="#home_banner" data-slide-to="0" class="active"></li>
-           <li data-target="#home_banner" data-slide-to="1"></li>
+           
            
         </ol>
     </div>
