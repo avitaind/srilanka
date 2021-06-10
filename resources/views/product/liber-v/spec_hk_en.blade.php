@@ -77,7 +77,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.memory')</div>
-                                <div>8GB DDR4 2400MHz</div>
+                                <div>8GB DDR4 2400MHz </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.graphics')</div>
