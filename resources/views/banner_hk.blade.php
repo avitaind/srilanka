@@ -1,94 +1,53 @@
 <section class="top-nav-padding homepage-banner">
     <div id="home_banner" class="carousel slide" data-ride="carousel" data-interval="0" data-pause="">
         <div class="carousel-inner" role="listbox">
-  
 
-
-    {{-- <div class="carousel-item active">
+       
+        <div class="carousel-item active">
             <div class="responsive-block">
-                <a target="_blank" href="https://in.nexstmall.com/">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-lvg"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-lvg"></div>
-                    </div>
+            <a href="{{ route('product.overview', ['liber-v']) }}">
+                <div class="banner-block responsive-item">
+                    @if( App::isLocale('en') )
+                        <div class="banner-bg hidden-sm-down"
+                             style="background-image: url('/images/banner/avita-liber-v-web-new-v4.jpg')"></div>
+                    @else
+                        <div class="banner-bg hidden-sm-down"
+                             style="background-image: url('/images/banner/avita-liber-v-web-new-v4.jpg')"></div>
+                    @endif
+                    <div class="banner-bg hidden-md-up"
+                         style="background-image: url('/images/banner/avita-liber-v-mob-new-v4.jpg')"></div>
+                </div>
                 </a>
             </div>
         </div>
 
-       <div class="carousel-item ">
-            <div class="responsive-block">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-99"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-99"></div>
-                    </div>
-            </div>
-        </div> 
-
- <div class="carousel-item ">
+        <!-- <div class="carousel-item ">
                 <div class="responsive-block">
-                <a target="_blank" href="https://www.reliancedigital.in/laptops/c/S101210?searchQuery=AVITA">
+                <a href="{{ route('product.overview', 'cosmos-2in1') }}">
                     <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-rd"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-rd"></div>
-                    </div>
-               </a>
-          </div>
-     </div> --}}
-
- 
-
-    <div class="carousel-item active">
-                <div class="responsive-block">
-               <a href="{{ route('product.overview', ['liber-v']) }}">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-liber-v"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-liber-v"></div>
+                        @if( App::isLocale('en') )
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/Cosmos_2-in1_Lifestyle_web.png')"></div>
+                        @else
+                            <div class="banner-bg hidden-sm-down"
+                                 style="background-image: url('/images/banner/Cosmos_2-in1_Lifestyle_web.png')"></div>
+                        @endif
+                        <div class="banner-bg hidden-md-up"
+                             style="background-image: url('/images/banner/Cosmos_2-in1_Lifestyle_mob.png')"></div>
                     </div>
                     </a>
                 </div>
             </div>
-           
-             {{-- <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="{{ route('product.overview', ['magus-lite-2in1-laptop']) }}">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-magus"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-magus"></div>
-                    </div>
-                    </a>
-                </div>
-            </div> --}}
+         -->
+
+        </div>
 
 
-        {{-- <div class="carousel-item">
-                <div class="responsive-block">
-                 <a href="{{ route('product.overview', ['admiror']) }}">
-                    <div class="banner-block responsive-item">
-                        <div class="banner-bg hidden-sm-down banner-web-admiror"></div>                  
-                        <div class="banner-bg hidden-md-up banner-mob-admiror"></div>
-                    </div>
-                </div>
-            </div>
-      
-            <div class="carousel-item">
-                <div class="responsive-block">
-                <a href="https://www.avita.com/in/login">
-
-                    <div class="banner-block responsive-item">
-                            <div class="banner-bg hidden-sm-down banner-web-warranty"></div>
-                            <div class="banner-bg hidden-md-up banner-mob-warranty"></div>
-                       </div>
-                       </a>
-                  </div>
-            </div> --}}
        
           <ol class="carousel-indicators">
            <li data-target="#home_banner" data-slide-to="0" class="active"></li>
-           {{-- <li data-target="#home_banner" data-slide-to="1"></li> --}}
-           {{-- <li data-target="#home_banner" data-slide-to="2"></li>
-           <li data-target="#home_banner" data-slide-to="3"></li>
-           <li data-target="#home_banner" data-slide-to="4"></li>
-           <li data-target="#home_banner" data-slide-to="5"></li> --}}
+           <li data-target="#home_banner" data-slide-to="1"></li> 
+           
         </ol>
     </div>
   </div>       

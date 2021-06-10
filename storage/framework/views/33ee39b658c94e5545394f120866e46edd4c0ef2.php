@@ -36,11 +36,13 @@
                                        </li>
                                  
                                        
-                                      
-                                    
                                        <li class="nav-item">
+                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'cosmos-2in1')); ?>"><?php echo app('translator')->getFromJson('cosmos.name'); ?></a>
+                                        </li>
+                                    
+                                       <!-- <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'magus-lite-2in1-laptop')); ?>"><?php echo app('translator')->getFromJson('magus.name'); ?></a>
-                                            </li>
+                                            </li> -->
                                         
                                           <li class="nav-item">
                                                 <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'essential')); ?>"><?php echo app('translator')->getFromJson('site.essential_name'); ?></a>

@@ -69,7 +69,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.cpu')</div>
-                                <div>Intel® Core™ i5-10210U / Intel® Core™ i7-10510U / AMD Ryzen™ 5 3500U / AMD Ryzen™ 7 3700U</div>
+                                <div>Intel® Core™ i5-10210U </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.display')</div>
@@ -81,7 +81,7 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.graphics')</div>
-                                <div>Intel® UHD Graphics 620 / Radeon™ Vega 8 Graphics / Radeon™ RX Vega 10 Graphics</div>
+                                <div>Intel® UHD Graphics 620 </div>
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">@lang('prod_spec.storage')</div>

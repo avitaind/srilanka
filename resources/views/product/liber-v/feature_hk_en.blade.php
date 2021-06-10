@@ -195,8 +195,7 @@
                         <div class="banner-para ls-0">
                             <span class="d-md-block">LIBER V takes an evolutionary step forward in terms of </span>
                             <span class="d-md-block">performance parameter by adapting the new 10<sup>th</sup> Gen Intel® </span>
-                            <span class="d-md-block">Core™i5-10210U/i7-10510U processors and AMD Ryzen™ 5</span>
-                            <span class="d-md-block">3500U- AMD Ryzen™ 7 3700U with 8 GB RAM,</span>
+                            <span class="d-md-block">Core™i5-10210U processors with 8 GB RAM,</span>
                             <span class="d-md-block">an ultra-fast SSD Drive up to 1 TB and </span>
                             <span class="d-md-block">preloaded Windows 10 home enabling you to tackle even</span>
                             <span class="d-md-block">the most complex tasks with practiced ease.</span>
@@ -224,7 +223,7 @@
                                 </div>
                                 <div class="data-card my-3 text-left">
                                     <div class="badge-caption">Up to</div>
-                                    <div class="badge-value">Core i7</div>
+                                    <div class="badge-value">Core i5</div>
                                     <div class="badge-caption">10th Gen INTEL® CORE™ PROCESSOR</div>
                                 </div>
                                
