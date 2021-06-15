@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div class="carousel-item ">
+        <!-- <div class="carousel-item ">
                 <div class="responsive-block">
                 <a href="<?php echo e(route('product.overview', 'cosmos-2in1')); ?>">
                     <div class="banner-block responsive-item">
@@ -38,7 +38,7 @@
                     </a>
                 </div>
             </div>
-        
+         -->
 
         </div>
 
@@ -46,7 +46,6 @@
        
           <ol class="carousel-indicators">
            <li data-target="#home_banner" data-slide-to="0" class="active"></li>
-           <li data-target="#home_banner" data-slide-to="1"></li> 
            
         </ol>
     </div>

@@ -13,14 +13,14 @@ function bytesToHuman($bytes, $precision = 2)
 
 function enabled_countries(  ) {
 
-     return ['in'];
+     return ['sl'];
      
 }
 
 function supported_language( $country ) {
 
     switch ( $country ) {
-        case 'in':
+        case 'sl':
             return ['en'];
 
 
@@ -33,31 +33,31 @@ function supported_language( $country ) {
 function facebookLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '';
-        default:    return "";
+        case 'sl':  return '';
+        default:    return "https://www.facebook.com/AVITA-Sri-Lanka-104290575225231";
     }
 }
 
 function instagramLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '';
-        default:    return "";
+        case 'sl':  return '';
+        default:    return "https://www.instagram.com/avitasrilanka/";
     }
 }
 
 function twitterLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '';
-        default:    return "";
+        case 'sl':  return '';
+        default:    return "https://twitter.com/sri_avita";
     }
 }
 
 function whatsappLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '';
+        case 'sl':  return '';
              default:    return "";
     }
 }
@@ -66,7 +66,7 @@ function whatsappLinkForCountry( $country ) {
 function youtubeLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '';
+        case 'sl':  return '';
              default:    return "";
     }
 }
@@ -75,7 +75,7 @@ function youtubeLinkForCountry( $country ) {
 function linkedinLinkForCountry( $country ) {
 
     switch ( $country ) {
-        case 'in':  return '';
+        case 'sl':  return '';
              default:    return "";
     }
 }
@@ -86,7 +86,7 @@ function metaKeywordByCountryAndLanguage( $country, $language ) {
     $keyword = "AVITA LIBER 12.5\", Core i5 Intel CPU, Windows Hello, fingerprint, USB 3.0 ports, USB Type-C, USB-C";
 
     switch ( $country ) {
-        case 'in':
+        case 'sl':
             if ( $language == 'en') {
                 $keyword = "AVITA LIBER 12.5\", Core i5 Intel CPU, Windows Hello, fingerprint, USB 3.0 ports, USB Type-C, USB-C";
             } else {
@@ -157,7 +157,7 @@ function googleAnalyticCode( $country ) {
 
     switch ( $country ) {
 
-        case 'in' : return "UA-133345635-5";
+        case 'sl' : return "UA-133345635-5";
 
     }
     return 'UA-133345635-5'; 
