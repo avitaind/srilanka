@@ -58,10 +58,10 @@
                             <img class="hidden-sm-down" src="/images/admiror/admiror_brown.png">
                             <ul class="list-unstyled spec-color-list d-flex flex-wrap align-items-center justify-content-center mt-4 ">   
                                 <li style="background-color: #b1816b"  class="active"  data-image="/images/admiror/admiror_brown.png"></li> 
-                                <li style="background-color: #d08364" data-image="/images/admiror/admiror_gold.png"></li>
+                                {{-- <li style="background-color: #d08364" data-image="/images/admiror/admiror_gold.png"></li>
                                 <li style="background-color: #efa4a1" data-image="/images/admiror/admiror_pink.png"></li>
                                 <li style="background-color: #75779b"data-image="/images/admiror/admiror_blue.png"></li>
-                                <li style="background-color: #b7b189" data-image="/images/admiror/admiror_green.png"></li>
+                                <li style="background-color: #b7b189" data-image="/images/admiror/admiror_green.png"></li> --}}
                             </ul>
                         </a>  
                         
@@ -91,7 +91,8 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">CPU</div>
-                                <div>Intel® Core™ i5-8265U Processor<br />
+                                <div>
+                                    {{-- Intel® Core™ i5-8265U Processor<br /> --}}
                                 	 Intel® Core™ i7-8565U Processor
 								</div>
                             </li>
@@ -163,7 +164,8 @@
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Colour</div>
-                                <div>Blazing Brown, Flaming Copper, Delight Pink, Pride Blue*, Traveler Green* <small>(* To be released)</small></div>
+                                <div>Blazing Brown* <small>(* To be released)</small></div>
+                                {{-- <div>Blazing Brown, Flaming Copper, Delight Pink, Pride Blue*, Traveler Green* <small>(* To be released)</small></div> --}}
                             </li>
                             <li class="spec-item d-flex">
                                 <div class="offset-md-1 col-4 col-md-3">Accessories</div>
