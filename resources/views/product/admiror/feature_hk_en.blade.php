@@ -12,7 +12,7 @@
 
           <section class="product-liber-banner">
             <div class="responsive-block">
-            <a href="https://www.amazon.in/s?k=avita+admiror">
+            <!-- <a href="https://www.amazon.in/s?k=avita+admiror"> -->
                 <div class="banner-block responsive-item admiror-banner">
                     <div class="banner-bg hidden-sm-down" style="background-image: url('/images/admiror/banner_admiror_e.jpg')"></div>
                     <div class="banner-bg hidden-md-up" style="background-image: url('/images/admiror/banner_mob_admiror_e.jpg')"></div>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </div>
-                </a>
+                <!-- </a> -->
             </div>
             
         </section>
@@ -34,10 +34,10 @@
                 <div class="container" style="text-align:center;">
                         <div class="space60"></div>
                         <div class="banner-para">
-                        <div align="center" class="col-lg-12" >
-                       <!--   <div class="admiror_h1">COMING SOON</div>--->
+                        <!-- <div align="center" class="col-lg-12" >
+                         <div class="admiror_h1">COMING SOON</div>
                       <span class="buy-now"><a href="https://www.amazon.in/s?k=avita+admiror">Buy Now</a></span> 
-                        </div>
+                        </div> -->
   <!---
                         <br/>
   

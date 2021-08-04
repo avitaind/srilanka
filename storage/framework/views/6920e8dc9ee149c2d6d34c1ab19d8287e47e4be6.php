@@ -32,15 +32,14 @@
                         <div class="space60"></div>
                         <div class="banner-para">
                         <div align="center" class="col-lg-12" >
-                       <!--   <div class="admiror_h1">COMING SOON</div>
-                      <span class="buy-now2"> COMING SOON</span> --->
+             <div class="admiror_h1">COMING SOON</div>
+                      <span class="buy-now2"> COMING SOON</span> 
                         </div>
-                      
-                            <div class="banner-para text-center">
+                       <div class="banner-para text-center">
                             <span class="d-lg-block">
-                            <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-35.56 cm-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
-                            <!--- <a href="/where-to-buy" style="color:#09F">Where to buy ></a> --->
-                            </span>
+                            <!---    <span class="buy-now2"><a href="https://www.amazon.in/AVITA-NS14A8INF561-MB-35.56 cm-i5-10210U-Graphics/dp/B0873JP8WQ/" target="_blank">Buy now ></a></span>
+                         <a href="/where-to-buy" style="color:#09F">Where to buy ></a> 
+                            </span>--->
                         </div>
                        
                         <div class="space60"></div>
