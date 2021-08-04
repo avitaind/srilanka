@@ -411,7 +411,11 @@
                         <div align="left" class="col-12 col-md-8">
                             <div class="admiror_h2">Incredible performance that brings superb productivity </div>
                             <div class="banner-para ls-0">
+<<<<<<< HEAD
                                 <span class="d-lg-block txt_white">ADMIROR is so much more than its look. Thanks to the new 8th generation Intel® Core<sup>TM</sup> i5-8265U/i7-8565U processor and 8GB RAM, the processing speed is greatly enhanced. Supporting SSD of up to 512GB, the ADMIROR is your ideal storage solution.</span>
+=======
+                                <span class="d-lg-block txt_white">ADMIROR is so much more than its look. Thanks to the new 8th generation Intel® Core<sup>TM</sup>i7-8565U processor and 8GB RAM, the processing speed is greatly enhanced. Supporting SSD of up to 512GB, the ADMIROR is your ideal storage solution.</span>
+>>>>>>> 78baf408b0d1cc52622212e7700ab7bb5ba194a1
     
                             </div>
                         </div>
