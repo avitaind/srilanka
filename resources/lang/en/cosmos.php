@@ -44,7 +44,7 @@ return [
     'access'               			=> 'Accessories',
     'color'               			=> 'Color',
     'color-detail'           		=> 'Charcoal Grey',
-    'img-feature'           		=> '/images/MAGUS/feature.png',
+    'img-feature'           		=> '/images/magus/feature.png',
 	'img-banner1'           		=> '/images/banner/MAGUS_2-in-1_Lifestyle_Banner_(Dextop).png',
 	'img-banner2'           		=> '/images/banner/MAGUS_2-in-1_Lifestyle_Banner_(Mobile).png',
 ];
