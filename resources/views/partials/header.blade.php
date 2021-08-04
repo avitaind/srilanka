@@ -43,7 +43,7 @@
                                           <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', ['liber-v-gold-blue']) }}">@lang('site.liber-v-gold')</a>
                                        </li> --}}
                                        <li class="nav-item">
-                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'cosmos-2in1') }}">@lang('cosmos.name')</a>
+                                             <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'magus-2in1') }}">@lang('cosmos.name')</a>
                                         </li>
                                         <li class="nav-item">
                                              <a class="nav-link px-md-4 py-2" href="{{ route('product.overview', 'admiror') }}">@lang('site.admiror')</a>

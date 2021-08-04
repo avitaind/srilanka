@@ -37,7 +37,7 @@
                                  
                                        
                                        <li class="nav-item">
-                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'cosmos-2in1')); ?>"><?php echo app('translator')->getFromJson('cosmos.name'); ?></a>
+                                             <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'magus-2in1')); ?>"><?php echo app('translator')->getFromJson('cosmos.name'); ?></a>
                                         </li>
                                         <li class="nav-item">
                                              <a class="nav-link px-md-4 py-2" href="<?php echo e(route('product.overview', 'admiror')); ?>"><?php echo app('translator')->getFromJson('site.admiror'); ?></a>

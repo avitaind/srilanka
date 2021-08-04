@@ -43,17 +43,17 @@
 
         <div class="carousel-item ">
                 <div class="responsive-block">
-                <a href="<?php echo e(route('product.overview', 'cosmos-2in1')); ?>">
+                <a href="<?php echo e(route('product.overview', 'magus-2in1')); ?>">
                     <div class="banner-block responsive-item">
                         <?php if( App::isLocale('en') ): ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/Cosmos_2-in1_Lifestyle_web.png')"></div>
+                                 style="background-image: url('/images/banner/MAGUS_2-in-1_Lifestyle_Banner_(Dextop).png')"></div>
                         <?php else: ?>
                             <div class="banner-bg hidden-sm-down"
-                                 style="background-image: url('/images/banner/Cosmos_2-in1_Lifestyle_web.png')"></div>
+                                 style="background-image: url('/images/banner/MAGUS_2-in-1_Lifestyle_Banner_(Dextop).png')"></div>
                         <?php endif; ?>
                         <div class="banner-bg hidden-md-up"
-                             style="background-image: url('/images/banner/Cosmos_2-in1_Lifestyle_mob.png')"></div>
+                             style="background-image: url('/images/banner/MAGUS_2-in-1_Lifestyle_Banner_(Mobile).png')"></div>
                     </div>
                     </a>
                 </div>

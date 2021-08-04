@@ -165,12 +165,12 @@ class ProductsController extends Controller
         }
 
              
-        if ( $slug == 'cosmos-2in1' ) {
-            return view('product.cosmos-2in1', compact( 'product'));
+        if ( $slug == 'magus-2in1' ) {
+            return view('product.magus-2in1', compact( 'product'));
         }
 
-        if ( $slug == 'cosmos-2in1-spec' ) {
-            return view('product.cosmos_2in1_spec', compact( 'product'));
+        if ( $slug == 'magus-2in1-spec' ) {
+            return view('product.magus_2in1_spec', compact( 'product'));
         } 
 
         if ( $slug == 'magus-lite-2in1-laptop' ) {
