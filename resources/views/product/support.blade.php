@@ -12,7 +12,7 @@
 
 <main class="top-nav-padding">
 
-	@include('partials.product-navbar')
+	{{-- @include('partials.product-navbar') --}}
 
 	<section class="product-support-section">
 		<div class="tab-product-support">

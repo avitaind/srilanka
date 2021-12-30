@@ -50,14 +50,14 @@
             <div class="banner-block">
                 <div class="banner-bg"> </div>
                 <div class="banner-image">
-                    <img class="bc-computer-image bc-computer-1" src="/images/cosmos/sc2_img1.png">
+                    <img class="bc-computer-image bc-computer-1" src="/images/magus/sc2_img1.png">
                     <!--<img class="bc-computer-image bc-computer-2" src="/images/liber/sc7_fimg2.png">
                     <img class="bc-computer-image bc-computer-3" src="/images/liber/sc7_fimg3.png">-->
                 </div>
                 <div class="container">
                     <div class="banner-info mx-auto mr-lg-0">
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" src="/images/cosmos/sc2_img1.png">
+                            <img class="ac-computer-image ac-computer-1" src="/images/magus/sc2_img1.png">
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5">@lang('cosmos.2in1')</div>
                         <div class="banner-para ls-0">
@@ -98,21 +98,21 @@
                 <div class="banner-bg"></div>
                 <div class="banner-image">
             
-                    <img class="bc-computer-image bc-computer-1" src="/images/cosmos/sc7_fimg1.png">
+                    <img class="bc-computer-image bc-computer-1" src="/images/magus/sc7_fimg1.png">
                     <!--<img class="bc-computer-image bc-computer-2" src="/images/liber/sc7_fimg2.png">
                     <img class="bc-computer-image bc-computer-3" src="/images/liber/sc7_fimg3.png">-->
                 </div>
                 <div class="container">
                     <div class="banner-info mx-auto mr-lg-0">
                         <div class="ac-computer-wrap hidden-md-up">
-                            <img class="ac-computer-image ac-computer-1" src="/images/cosmos/sc7_fimg1.png">
+                            <img class="ac-computer-image ac-computer-1" src="/images/magus/sc7_fimg1.png">
                         </div>
                         <div class="h2 banner-header mb-4 mb-sm-5">@lang('cosmos.accommodate')</div>
 
                         <div class="banner-para ls-0">
                             <p class="d-lg-block">@lang('cosmos.accommodate-detail') </p>
                             <!--p class="d-lg-block"><img src="/images/magus/sideview.png"></p-->
-                            <p class="d-lg-block"><img src="/images/cosmos/port_en.png"></p>
+                            <p class="d-lg-block"><img src="/images/magus/port_en.png"></p>
                             
                         </div>
                         
@@ -133,7 +133,7 @@
             <div class="container">
                 <div class="row">
                 
-                    <img class="ac-computer-image ac-computer-1" src="/images/cosmos/cosmos_warranty.png">
+                    <img class="ac-computer-image ac-computer-1" src="/images/magus/cosmos_warranty.png">
                   
                 </div>
             </div>

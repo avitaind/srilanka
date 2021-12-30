@@ -8,7 +8,7 @@
             <ul class="nav-product d-flex list-unstyled flex-column justify-content-center text-center flex-sm-row justify-content-sm-end my-2">
             <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.overview', 'essential')); ?>"><?php echo app('translator')->getFromJson('site.essential'); ?></a></li>
             <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.spec', 'essential')); ?>"><?php echo app('translator')->getFromJson('site.essential_spec'); ?></a></li>
-            <li class="nav-item"><a class="nav-link py-1" href="<?php echo e(route('product.support', 'liber')); ?>"><?php echo app('translator')->getFromJson('site.productnav_support'); ?></a></li>
+            
             <li class="nav-item"><a class="nav-link py-1" href="/where-to-buy"><?php echo app('translator')->getFromJson('site.productnav_wheretobuy'); ?></a></li>
             </ul>
         </div>
